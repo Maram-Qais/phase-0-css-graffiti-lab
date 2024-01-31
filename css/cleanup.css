@@ -1,1 +1,28 @@
-/* write your override styles here */
+#board .label-1 {
+    visibility: hidden;
+  }
+  
+  #board .label-2.special {
+    visibility: hidden;
+  }
+  
+  #board .container #label-3 {
+    visibility: hidden;
+  }
+  
+  #board .group > #label-4 {
+    visibility: hidden;
+  }
+  
+  #board .group .child #label-5 {
+    visibility: hidden;
+  }
+  
+  #board .group > div:first-child #label-6 {
+    visibility: hidden;
+  }
+  
+  #board .group div + div #label-7.special {
+    visibility: hidden;
+  }
+  
